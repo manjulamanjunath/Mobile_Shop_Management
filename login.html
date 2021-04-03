@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.bg{
+background:url(pho1.jpeg);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+h2 {
+text-align:center;
+color:white;
+font-size: 34px;
+}
+label {
+text-align:right;
+color:white;
+font-size: 20px;
+  padding: 10px 10px;
+}
+input[type=text], input[type=password] ,input[type=submit]
+{
+    width: 10%;
+    padding: 8px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 8px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+align:right;
+}
+.container {
+    padding: 10spx;
+}
+</style>
+</head>
+<body class= "bg"></br></br>
+<a href="http://localhost/mydb/the/home.html"></a>
+<h2><big><u>LOGIN PAGE</u></h2></big></br></br></br></br></br>
+<form action="login.php" method="POST">
+ <div class="container">
+  <center><label><b>Username:</b></label>
+	            <input type="text" placeholder="Enter Username" name="username" class="box" required/></br></br> </center>
+ <center> <label><b>Password:</b></label>
+                             <input type="password" placeholder="Enter Password" name="password" class="box" required/></br></br>
+  <center><input type="submit" class="button" value="login"/></center>
+ <center><input type="reset"  name="reset" class="button" placeholder="RESET"/></br></center>
+</div>
+</form>
+</body>
+</html>
