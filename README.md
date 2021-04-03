@@ -8,4 +8,3 @@
 manjulamanjunath/manjulamanjunath is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-PHP and MYSQL Project on Mobile_Shop_Management System is a web based project and it is developed in PHP and MYSQL and we can manage the Brands,Customers,Bills,Stocks,etc.
